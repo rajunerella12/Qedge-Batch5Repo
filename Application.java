@@ -18,5 +18,21 @@ public static void main (String[] args){
     String grade = DemoClass.getGrade(70);
     System.out.println("Grade:"+grade);
  }
+#code changes by Ethan for Featute2.2 for HDFC ApplicationException
+public void publicMethod() {
+        System.out.println("This is a public method.");
+    }
+
+    // Main method to run the program
+    public static void main(String[] args) {
+        // Creating an object of MyClass
+        MyClass myObject = new MyClass();
+
+        // Accessing the public field
+        System.out.println("Public Field: " + myObject.publicField);
+
+        // Calling the public method
+        myObject.publicMethod();
+    }
 }
-}
+#end of feature2.2 method
