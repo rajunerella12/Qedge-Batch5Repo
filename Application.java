@@ -18,6 +18,7 @@ public static void main (String[] args){
     String grade = DemoClass.getGrade(70);
     System.out.println("Grade:"+grade);
  }
+
 #code changes by Ethan for Featute2.2 for HDFC ApplicationException
 public void publicMethod() {
         System.out.println("This is a public method.");
@@ -34,5 +35,26 @@ public void publicMethod() {
         // Calling the public method
         myObject.publicMethod();
     }
+
+#code changes for Feature2.1 by Developer Vivek on Feb2024 for service Module for HDFC Bank ApplicationException
+public class SimpleMethodExample {
+
+    // Method that takes two integers and returns their sum
+    public static int addNumbers(int a, int b) {
+        int sum = a + b;
+        return sum;
+    }
+
+    public static void main(String[] args) {
+        // Calling the method and storing the result
+        int result = addNumbers(5, 7);
+
+        // Printing the result
+        System.out.println("The sum is: " + result);
+    }
+}
+#End of future2.1 method
+
+
 }
 #end of feature2.2 method
