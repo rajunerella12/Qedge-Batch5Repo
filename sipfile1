@@ -5,3 +5,8 @@ will give the consistent & productive results
 
 
 #JENKINS AUTOBUILD JOB CONFIGURATION
+
+
+#webhook job configuration
+UserAccountsRepots ...Bugs resolved
+Commits new updated code into GitHub Repository Branch("UserAccounts")
