@@ -4,7 +4,10 @@
   <groupId>kitclassroom</groupId>
   <artifactId>ClassroomProject</artifactId>
   <packaging>jar</packaging>
-  <version>1.4</version>
+  <version>1.4</version><properties>
+   <maven.compiler.source>1.6</maven.compiler.source>
+   <maven.compiler.target>1.6</maven.compiler.target>
+ </properties>
   <name>ClassroomProject</name>
   <url>http://maven.apache.org</url>
   <dependencies>
